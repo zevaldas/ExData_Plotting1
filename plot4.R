@@ -21,6 +21,6 @@ with(data, {
                legend=c("Sub_metering_1", "Sub_metering_2",
                         "Sub_metering_3"))
         plot(Global_reactive_power ~ DateTime, type="l", 
-               xlab="datattime")
+               xlab="datatime")
 })
 dev.off()
